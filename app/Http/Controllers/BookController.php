@@ -76,7 +76,6 @@ class BookController extends Controller
      */
     public function destroy(Book $book)
     {
-        // $book = Book::find($id);
         if (!empty($book))
         {
             $book->delete();
